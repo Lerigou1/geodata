@@ -9,9 +9,16 @@
 </head>
 <body>
     <h1>Oceania</h1>
-    <ul>
-        <li><a href="australia"><button>Austrália</button></a></li>
-        <li><a href="novazelandia"><button>Nova Zelândia</button></a></li>
+    <ul id="tudo">
+        <li id="foto">
+            <img src="{% static 'img/oceania.png' %}" alt="">
+        </li>
+        <li>
+            <ul id="lista">
+                <li><a href="australia"><button>Austrália</button></a></li>
+                <li><a href="novazelandia"><button>Nova Zelândia</button></a></li>
+            </ul>
+        </li>
     </ul>
 </body>
 </html>

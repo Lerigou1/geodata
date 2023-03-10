@@ -1,11 +1,11 @@
 body{
-    background-color: lightskyblue;
+    background-color: powderblue;
 }
 h1 {
     color: aliceblue;
     font-family:'Trebuchet MS';
     font-size: 100px;
-    margin: 20px 20px 20px 20px;
+    margin: 100px 30px 50px 30px;
 }
 h2 {
     font-family:'Trebuchet MS';
@@ -18,13 +18,17 @@ h2 {
 li {
     list-style-type: none;
 }
-button {
-    width: 300px;
-    height: 50px;
-    margin-top: 10px;
-    font-size: 30px;
-    font-family:'Trebuchet MS';
-    border: 2px solid aliceblue;
-    background-color: rgb(116, 221, 116);
-    border-radius: 10px;
+img{
+    width: 500px;
 }
+.foto{
+    margin: -50px 10px -50px 10px;
+    text-align: center;
+}
+.foto2{
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+.foto2 img{
+    border-radius: 50px;
+} 

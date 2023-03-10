@@ -9,10 +9,17 @@
 </head>
 <body>
     <h1>Américas</h1>
-    <ul>
-        <li><a href="canada"><button>Canadá</button></a></li>
-        <li><a href="colombia"><button>Colômbia</button></a></li>
-        <li><a href="mexico"><button>México</button></a></li>
-    </ul>
+        <ul id="tudo">
+            <li id="foto">
+                <img src="{% static 'img/america.png' %}" alt="">
+            </li>
+            <li>
+                <ul id="lista">
+                    <li><a href="canada"><button>Canadá</button></a></li>
+                    <li><a href="colombia"><button>Colômbia</button></a></li>
+                    <li><a href="mexico"><button>México</button></a></li>
+                </ul>
+            </li>
+        </ul>
 </body>
 </html>
